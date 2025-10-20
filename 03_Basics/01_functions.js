@@ -24,9 +24,41 @@
 
 
 //4.with parameter with return
-function addition(num1,num2){
-    return num1+num2
+// function addition(num1,num2){
+//     return num1+num2
+// }
+
+// const ans=addition(50,100);
+// console.log(ans);
+
+
+
+//"..." rest operator
+// function calculateCartPrice(...num1){
+//     return num1;
+// }
+
+// console.log(calculateCartPrice(200,400,500))
+
+
+// const user={
+//     name:"sanket",
+//     prices:"1000",
+// }
+// function handleObject(anyObject){
+//     console.log(`Username is ${anyObject.name} and Price is ${anyObject.price}`);
+// }
+
+// handleObject({
+//     name:"sanket",
+//     price:"100"
+// })
+
+
+const arr=[200,300,400,500]
+
+function returnSecondValue(getArray){
+    return getArray[1];
 }
 
-const ans=addition(50,100);
-console.log(ans);
+console.log(returnSecondValue(arr));
